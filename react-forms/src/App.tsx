@@ -3,7 +3,10 @@
 // import { MultipleStatesForm } from "./components/MultipleStatesForm";
 // import { SingleStateForm } from "./components/SingleStateForm";
 // import { CustomFormHookForm } from "./components/CustomFormHookForm";
-import { FormDataForm } from "./components/FormDataForm";
+// import { FormDataForm } from "./components/FormDataForm";
+// import { FormikForm } from "./components/FormikForm";
+// import { FormikComponentsForm } from "./components/FormikComponentForm";
+import { FormikYupValidationForm } from "./components/FormikYupValidationForm";
 
 const App = () => {
   return (
@@ -13,7 +16,10 @@ const App = () => {
       {/* <MultipleStatesForm /> */}
       {/* <SingleStateForm /> */}
       {/* <CustomFormHookForm /> */}
-      <FormDataForm />
+      {/* <FormDataForm /> */}
+      {/* <FormikForm /> */}
+      {/* <FormikComponentsForm /> */}
+      <FormikYupValidationForm />
     </main>
   );
 };

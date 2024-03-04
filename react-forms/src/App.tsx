@@ -6,7 +6,30 @@
 // import { FormDataForm } from "./components/FormDataForm";
 // import { FormikForm } from "./components/FormikForm";
 // import { FormikComponentsForm } from "./components/FormikComponentForm";
-import { FormikYupValidationForm } from "./components/FormikYupValidationForm";
+// import { FormikYupValidationForm } from "./components/FormikYupValidationForm";
+// import {
+//   Route,
+//   RouterProvider,
+//   createBrowserRouter,
+//   createRoutesFromElements,
+// } from "react-router-dom";
+// import { QueryParametersForm } from "./components/QueryParametersForm";
+// import { ReactRouterForm } from "./components/ReactRouterForm";
+// import { signupAction } from "./actions/signupAction";
+
+// import { LocalStorageForm } from "./components/LocalStorageForm";
+// import { MultiPageForm } from "./components/MultiPageForm";
+import { RefForm } from "./components/RefForm";
+
+// const router = createBrowserRouter(
+//   createRoutesFromElements(<Route path="/" element={<QueryParametersForm />} />)
+// );
+
+// const router = createBrowserRouter(
+//   createRoutesFromElements(
+//     <Route path="/" element={<ReactRouterForm />} action={signupAction} />
+//   )
+// );
 
 const App = () => {
   return (
@@ -19,7 +42,11 @@ const App = () => {
       {/* <FormDataForm /> */}
       {/* <FormikForm /> */}
       {/* <FormikComponentsForm /> */}
-      <FormikYupValidationForm />
+      {/* <FormikYupValidationForm /> */}
+      {/* <RouterProvider router={router} /> */}
+      {/* <LocalStorageForm /> */}
+      {/* <MultiPageForm /> */}
+      <RefForm />
     </main>
   );
 };

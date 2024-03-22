@@ -5,6 +5,11 @@ const links = [
   { href: "/routehandler", label: "Route Handler" },
   { href: "/serveraction", label: "Server Action" },
   { href: "/validationaction", label: "Server Action /w Validation" },
+  { href: "searchparams", label: "Search Params" },
+  { href: "urlredirect", label: "URL Redirect" },
+  { href: "reacthook", label: "react-hook-form" },
+  { href: "reacthookzod", label: "react-hook-form with Zod" },
+  { href: "shadcn", label: "shadcn/ui form" },
 ];
 
 export default function Forms() {
